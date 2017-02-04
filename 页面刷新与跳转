@@ -1,0 +1,4 @@
+echo "<script>alert('操作成功');location.href='".$_SERVER["HTTP_REFERER"]."';</script>";
+echo "<script>alert('操作成功');location.href='".$_SERVER["HTTP_REFERER"]."';</script>"; 
+echo "<script language=JavaScript> location.replace(location.href);</script>";
+echo '服务器忙，请<a href="javascript:document.location.reload()">刷新</a>页面，或稍后再试！谢谢！!';exit;
