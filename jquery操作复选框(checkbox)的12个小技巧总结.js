@@ -1,7 +1,3 @@
-```javascript
-alert(123)
-```
-
 1、获取单个checkbox选中项(三种写法)
 $("input:checkbox:checked").val()
 或者
