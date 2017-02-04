@@ -1,2 +1,3 @@
-# MoreCode
-收藏更多的代码
+```javascript
+
+```
