@@ -1,0 +1,12 @@
+    function session() {
+        let sid = '';
+        let cookies = document.cookie.split(';');
+        for (let item of cookies) {
+            let line = item.split('=');
+            if (line[0] === "PHPSESSID") {
+                sid = line[1];
+                break;
+            }
+        }
+        return sid;
+    }
